@@ -4,6 +4,8 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 
 <c:url var="actionAdicionar" value="/albuns/adicionar"> </c:url>
+<h2>Inserção de novo álbum...</h2>
+<br />
 <form:form action="${actionAdicionar}" method="post"
 	modelAttribute="album">
 	<div class="row">

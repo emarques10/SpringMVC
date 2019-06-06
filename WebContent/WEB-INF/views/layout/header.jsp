@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">TreinaWeb Spring MVC</a>
+      <a class="navbar-brand" href="#">Spring MVC</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,7 +24,7 @@
       </ul>
       <ul class="nav navbar-nav">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Albuns <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Musicas <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Listar</a></li>
             <li><a href="#">Cadastrar action</a></li>

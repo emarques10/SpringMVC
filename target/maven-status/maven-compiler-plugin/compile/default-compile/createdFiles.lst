@@ -1,0 +1,4 @@
+br\com\emarques\springmvc\repositorios\RepositorioAlbum.class
+br\com\emarques\springmvc\controllers\HelloController.class
+br\com\emarques\springmvc\dominios\Album.class
+br\com\emarques\springmvc\controllers\AlbunsController.class
