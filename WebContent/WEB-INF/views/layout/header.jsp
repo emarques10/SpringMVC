@@ -17,8 +17,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Albuns <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Listar</a></li>
-            <li><a href="#">Cadastrar action</a></li>
+            <li><a href="/SpringMVC/albuns/listar">Listar</a></li>
+            <li><a href="/SpringMVC/albuns/adicionar">Cadastrar</a></li>
           </ul>
         </li>
       </ul>
@@ -26,8 +26,8 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Musicas <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Listar</a></li>
-            <li><a href="#">Cadastrar action</a></li>
+            <li><a href="/SpringMVC/musicas/listar">Listar</a></li>
+            <li><a href="/SpringMVC/musicas/adicionar">Cadastrar</a></li>
           </ul>
         </li>
       </ul>
