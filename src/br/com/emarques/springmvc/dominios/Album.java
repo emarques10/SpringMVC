@@ -18,6 +18,8 @@ import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+
 @Entity
 @Table(name = "alb_albuns")
 public class Album {
@@ -40,6 +42,7 @@ public class Album {
 	private int anoDeLancamento;
 
 	@OneToMany(mappedBy = "album", fetch = FetchType.EAGER, cascade = CascadeType.MERGE, orphanRemoval = true)
+	@JsonBackReference
 	private Set<Musica> musicas;
 
 	public Long getId() {
